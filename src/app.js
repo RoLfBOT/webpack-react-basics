@@ -1,7 +1,13 @@
-import { square, add } from './utils';
+import React, { Component } from 'react';
 
-console.log('app.js is running');
+class App extends Component{
+    render() {
+        return (
+            <div>
+                React App
+            </div>
+        );
+    }
+}
 
-console.log(square(4));
-
-console.log(add(100, 23));
+export default App;
