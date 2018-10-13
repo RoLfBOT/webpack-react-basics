@@ -6,6 +6,7 @@ class App extends Component{
             <div>
                 <h1>React App</h1>
                 <p>Webpack with Babel Works</p>
+                <button>Submit</button>
             </div>
         );
     }
