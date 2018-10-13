@@ -4,7 +4,8 @@ class App extends Component{
     render() {
         return (
             <div>
-                React App
+                <h1>React App</h1>
+                <p>Webpack with Babel Works</p>
             </div>
         );
     }
